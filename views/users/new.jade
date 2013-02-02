@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+  div.container
+    form.form-signin(action="/users/create", method="POST")
+      h2.form-signin-heading Sign up
+        input.input-block-level(type="text", placeholder="Email address", name="email")
+        input.input-block-level(type="password", placeholder="Password", name="password")
+        input.input-block-level(type="password", placeholder="Repeat Password", name="repeat-password")
+
+
+        button.btn.btn-large.btn-primary(type="submit") Sign Up

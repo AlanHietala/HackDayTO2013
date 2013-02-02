@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+	div.container
+		form.form-signin(action="/sessions/create", method="POST")
+			h2.form-signin-heading Sign In
+			input.input-block-level(type="text", placeholder="Email address", name="email")
+			input.input-block-level(type="password", placeholder="Password", name="password")
+
+			button.btn.btn-large.btn-primary(type="submit") Sign In
+			a.btn.btn-large(href="/users/new") Register
