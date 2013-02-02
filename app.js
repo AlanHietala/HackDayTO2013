@@ -17,7 +17,7 @@ var express = require('express')
   , authUser = authMiddleware.authUser
   , mongoDBConnect = process.env.MONGOLAB_URI || 
                      process.env.MONGOHQ_URL || 
-                     'mongodb://localhost/mydb',
+                     'mongodb://localhost/mydb'
   , app = express();
 
 
