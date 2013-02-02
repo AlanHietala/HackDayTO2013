@@ -1,0 +1,15 @@
+<script id="fridge-item-template" type="text/template">
+	<div class="fridge-item-name left"><p class="lead"><%=name%></p></div>
+	<div class="fridge-item-quantity right">
+		<div class="btn-group">
+			<button class="btn high <%= quantity == 2 ? 'btn-success' : '' %>">lots</button>
+			<button class="btn med <%= quantity == 1 ? 'btn-warning' : '' %>">some</button>
+			<button class="btn low <%= quantity == 0 ? 'btn-danger' : '' %>">none</button>
+		</div>
+		<button class="btn delete">Remove</button>
+	</div>
+</script>
+
+<script id="fridge-template" type="text/template">
+
+</script>
