@@ -13,4 +13,11 @@ User accounts weren't quite hooked up in time so it really operates on a single 
 
 You can see the app running at: http://stark-oasis-7090.herokuapp.com/
 
+Technology
+================
+
+Frontend was written in backbone and talks to JSON endpoints. Bootstrap for the UI because no one should let me near photoshop ever.
+
+Nodejs / express 3 for the server, bcrypt for user password hashing 
+
 
