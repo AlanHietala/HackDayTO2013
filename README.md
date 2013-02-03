@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Alan Hietala's HackDay 2013 App: What's Up Frige
 ===============================
 
@@ -18,4 +17,4 @@ HackDayTO2013
 =============
 
 My hack for the Linkedin HackDay 2013 event
->>>>>>> 3694c0616f8bfb86cc617936d97e18e6c85bbb13
+
