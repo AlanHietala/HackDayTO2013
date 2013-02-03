@@ -1,4 +1,4 @@
-Alan Hietala's HackDay 2013 App: What's Up Frige
+Alan Hietala's HackDay 2013 App: What's Up Fridge
 ===============================
 
 This was the first app I wrote for the linkedin HackDay 2013 event. It wasn't presented at the event since I had to leave early but I hope people can learn something from it. 
@@ -12,9 +12,5 @@ This app takes an agile approach to fridge inventory. Most people don't measure 
 User accounts weren't quite hooked up in time so it really operates on a single account right now. 
 
 You can see the app running at: http://stark-oasis-7090.herokuapp.com/
-=======
-HackDayTO2013
-=============
 
-My hack for the Linkedin HackDay 2013 event
 
