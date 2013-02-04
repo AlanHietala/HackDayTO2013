@@ -61,7 +61,7 @@ var loginView = Backbone.View.extend({
 					that.loginSuccess(data);
 				},
 				type: 'POST',
-				url: fridge.settings.server + "/ecobee/acknowledge"
+				url: fridge.settings.server + "/sessions/new"
 			});
 	},
 	loginSuccess: function(data) {
